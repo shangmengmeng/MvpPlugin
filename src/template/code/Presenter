@@ -1,0 +1,21 @@
+package &package&.presenter;
+
+import &basePackageName&.base.mvp.ModelFactory;
+import &basePackageName&.base.mvp.base.IBasePresenter;
+import  &package&.contract.&Contract&;
+
+/**
+ *
+ */
+public class &Presenter& extends IBasePresenter<&Contract&.View> implements &Contract&.Presenter {
+
+    private &Contract&.Model applyForFacilitatorModel = ModelFactory.getInstance().getFragmentEvidenceModel();
+
+    @Override
+    public void dispose() {
+        if (applyForFacilitatorModel != null)
+            applyForFacilitatorModel.dispose();
+    }
+
+
+}

@@ -1,0 +1,26 @@
+package &package&.contract;
+
+import &basePackageName&.base.mvp.base.BaseModel;
+import &basePackageName&.base.mvp.base.BasePresenter;
+import &basePackageName&.base.mvp.base.BaseView;
+
+/**
+ *
+ */
+public interface &Contract& {
+
+    interface View extends BaseView {
+
+
+    }
+
+    interface Model extends BaseModel {
+
+
+    }
+
+    interface Presenter extends BasePresenter<View> {
+
+
+    }
+}

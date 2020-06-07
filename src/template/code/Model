@@ -1,0 +1,16 @@
+package &package&.model;
+
+import &basePackageName&.base.mvp.base.IBaseModel;
+import  &package&.contract.&Contract&;
+
+
+/**
+ *
+ */
+public class &Model& extends IBaseModel implements &Contract&.Model {
+
+  /* @Override
+   public void getBookMenus(Map<String, String> params, BaseView baseView, RequestCallBack requestCallBack) {
+       setFlowAbleListRequestConfig(retrofitHelper.getBookMenus(params), baseView, requestCallBack, true);
+   }*/
+}
